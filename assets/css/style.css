@@ -217,10 +217,10 @@ h2{
 
 .area3--content{
     padding: 200px 80px;
-    background-image: url('../img/bg2.jpg');
+    background-image: url('../img/bg2.png');
     background-size: cover;
-    background-position: left;
-    border: none;
+    background-repeat: no-repeat;
+    background-position: center left;
 }
 
 .area3--content p{
@@ -238,7 +238,6 @@ h2{
 .area4{
     display: grid;
     grid-template-columns: 500px 1fr;
-    background-color: #E9EAEF;
     border: none;
 }
 
